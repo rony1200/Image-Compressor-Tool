@@ -18,7 +18,7 @@
 2. **Automatic Compression**: Image is optimized in-browser or via backend API.
 3. **Download**: Instantly download the compressed version.
 
-Check out the `how_it_works.html` page for a visual and interactive guide.
+Check out the `how-it-works.html` page for a visual and interactive guide.
 
 ## 💼 Use Cases
 
@@ -32,7 +32,7 @@ Check out the `how_it_works.html` page for a visual and interactive guide.
 ```
 image-compressor-pro/
 ├── index.html              # Homepage or upload interface
-├── how_it_works.html       # Detailed guide page
+├── how-it-works.html       # Detailed guide page
 ├── styles/                 # CSS files
 ├── scripts/                # JS for image compression logic
 ├── assets/                 # Icons, sample images
@@ -51,7 +51,7 @@ image-compressor-pro/
 To monetize the site:
 
 1. Replace the placeholder ID `ca-pub-XXXXXXXXXXXXXXXX` in the `<script>` tag.
-2. Place your ad unit code in the designated AdSense divs in `how_it_works.html`.
+2. Place your ad unit code in the designated AdSense divs in `how-it-works.html`.
 
 ## 🛠️ Setup Instructions
 
