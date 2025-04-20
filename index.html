@@ -442,19 +442,20 @@
 </head>
 <body>
     <header>
-        <div class="container header-content">
-            <a href="/" class="logo">ImageCompressorPro</a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="/image-tool/how-it-works.html">How It Works</a></li>
-                    <li><a href="/image-tool/privacy-policy.html">Privacy</a></li>
-                    <li><a href="/image-tool/contact-us.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="logo">
+      <img src="favicon.ico" alt="Logo">
+      Image Compressor Pro
+    </div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+  </header>
 
+  <nav id="menu">
+    <a href="index.html">Home</a>
+    <a href="about-us.html">About Us</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="contact-us.html">Contact</a>
+  </nav>
+    <section>
     <main class="container">
         <section class="hero">
             <h1>Free Online Image Compression Tool</h1>
@@ -479,7 +480,12 @@
                 </script>
             </div>
         </div>
-
+        <section>
+  <h2>Fast, Free Online Image Compressor</h2>
+  <p>Welcome to Image Compressor Pro — your lightweight, no-hassle image compression tool that works right in your browser. Reduce file sizes for JPG, PNG, and WebP images while keeping great quality.</p>
+  <p>This tool is perfect for bloggers, designers, students, developers, and anyone who needs to optimize images for faster loading and sharing. No downloads, no accounts — just drag, compress, and save!</p>
+  <p>All files are processed locally for privacy and security. Enjoy a smooth, ad-free experience — and yes, it’s totally free!</p>
+</section>
         <section class="compressor-container">
             <div class="upload-area" id="uploadArea">
                 <i>📁</i>
